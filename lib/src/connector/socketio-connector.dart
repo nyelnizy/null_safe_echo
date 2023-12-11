@@ -100,7 +100,7 @@ class SocketIoConnector extends Connector {
 
   /// Get the socket ID for the connection.
   @override
-  String socketId() {
+  String? socketId() {
     return this.socket.id;
   }
 

@@ -65,7 +65,7 @@ abstract class Connector {
   void leaveChannel(String channel);
 
   /// Get the socket_id of the connection.
-  String socketId();
+  String? socketId();
 
   /// Disconnect from the Echo server.
   void disconnect();
