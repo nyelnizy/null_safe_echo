@@ -80,7 +80,7 @@ class Echo {
   }
 
   /// Get the Socket ID for the connection.
-  String sockedId() {
+  String? sockedId() {
     return this.connector.socketId();
   }
 }
